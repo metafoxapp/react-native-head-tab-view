@@ -121,6 +121,7 @@ type HSectionListType<T = any> = React.ForwardRefExoticComponent<React.PropsWith
 export const HScrollView: HScrollViewType
 export const HFlatList: HFlatListType
 export const HSectionList: HSectionListType
+export const GHFlatList: HFlatListType
 
 
 
