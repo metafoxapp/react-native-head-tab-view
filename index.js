@@ -1,8 +1,8 @@
 import { ScrollView, SectionList, FlatList as RNFlatList } from 'react-native'
+import { FlatList } from 'react-native-gesture-handler'
 import createCollapsibleScrollView from './createCollapsibleScrollView'
 export { HeaderContext } from './HeaderContext'
 export { default as GestureContainer } from './GestureContainer'
-export { FlatList }  from 'react-native-gesture-handler'
 
 const HScrollView = createCollapsibleScrollView(ScrollView)
 const HFlatList = createCollapsibleScrollView(RNFlatList)
